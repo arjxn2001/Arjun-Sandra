@@ -1,5 +1,5 @@
 // All content lives here. Swap photos in /public/images, music in /public/music/wedding.mp3
-export const wedding = {
+const raw = {
   couple: { groom: 'Arjun', bride: 'Sandra', initials: 'A&S' },
   date: { iso: '2026-11-26T10:30:00+05:30', display: '26 November 2026', short: '26 • 11 • 2026' },
   music: '/music/wedding.mp3',
@@ -25,3 +25,10 @@ export const wedding = {
   message: ['Some moments become memories.', 'Some people make them unforgettable.'],
   final: { image: '/images/footer.jpg', line: 'Forever starts here.', sign: 'With all our love.' },
 }
+
+const fix = v =>
+  typeof v === 'string' && v.startsWith('/') ? import.meta.env.BASE_URL + v.slice(1)
+  : Array.isArray(v) ? v.map(fix)
+  : v && typeof v === 'object' ? Object.fromEntries(Object.entries(v).map(([k, x]) => [k, fix(x)]))
+  : v
+export const wedding = fix(raw)
