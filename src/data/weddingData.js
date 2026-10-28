@@ -3,7 +3,7 @@ const raw = {
   couple: { groom: 'Arjun', bride: 'Sandra', initials: 'A&S' },
   date: { iso: '2026-11-26T10:30:00+05:30', display: '26 November 2026', short: '26 • 11 • 2026' },
   music: '/music/wedding.mp3',
-  hero: { image: '/images/hero.jpg', line: 'With love, from Kerala' },
+  hero: { image: '/images/hero.jpg', line: 'A NEW CHAPTER. A FOREVER LOVE.' },
   cardPhoto: '/images/story-01.jpg', // photo shown inside the envelope card
   galleryTitle: 'Our story, in pictures',
   gallery: [
@@ -15,9 +15,9 @@ const raw = {
     { src: '/images/gallery-06.jpg', title: 'And now, forever', story: 'And finally, here we are! ❤️ From little neighbours to best friends, from first love to forever… we’re celebrating our happily ever after with the people who mean the most to us. Surrounded by our family and friends, we begin our favourite chapter yet — a lifetime of being us!', bw: false },
   ],
   events: [
-    { name: 'Mehendi', date: '10 November 2026', time: '10:00 AM onwards', venue: "Bride's Residence", note: 'Henna, music and lunch with family.', image: '/images/mehendi.jpg' },
-    { name: 'Haldi', date: '11 November 2026', time: '9:00 AM onwards', venue: 'Family Residence', note: 'A morning of turmeric and laughter.', image: '/images/haldi.jpg' },
-    { name: 'Sangeet', date: '12 November 2026', time: '7:00 PM onwards', venue: 'To be announced', note: 'Dinner, dance and toasts.', image: '/images/sangeet.jpg' },
+    { name: 'Mehendi', date: '18 November 2026', time: '10:00 AM onwards', venue: "Bride's Residence", note: 'Henna, music and lunch with family.', image: '/images/mehendi.jpg' },
+    { name: 'Haldi', date: '20 November 2026', time: '9:00 AM onwards', venue: 'Family Residence', note: 'A morning of turmeric and laughter.', image: '/images/haldi.jpg' },
+    { name: 'Sangeet', date: '24 November 2026', time: '7:00 PM onwards', venue: 'To be announced', note: 'Dinner, dance and toasts.', image: '/images/sangeet.jpg' },
     { name: 'The Wedding', date: '26 November 2026', time: 'Muhurtham: 11:47am - 12:07pm', venue: 'Sree Mahadeva Temple Auditorium, Chotty, Kanjirappally', note: 'The ceremony, followed by a feast.', image: '/images/wedding.jpg', maps: 'https://maps.app.goo.gl/zsSBkeNMkYEZD43u8', main: true },
     { name: 'Reception', date: '27 November 2026', time: '5:00 PM onwards', venue: 'To be announced', note: 'An evening to celebrate together.', image: '/images/reception.jpg' },
   ],
