@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const WHATSAPP = '919562080435' // country code + number, no + or spaces
+const WHATSAPP = '919745218410' // country code + number, no + or spaces
 
 export default function RSVP() {
   const [sent, setSent] = useState(false)
