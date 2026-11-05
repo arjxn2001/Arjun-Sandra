@@ -8,7 +8,7 @@ export default function EditorialGallery() {
   const n = w.gallery.length, reduce = useReducedMotion()
   const [i, setI] = useState(0), [open, setOpen] = useState(null), [hold, setHold] = useState(false), [ratios, setRatios] = useState({})
   const go = d => setI(v => (v + d + n) % n)
-  useEffect(() => { if (reduce || hold || open !== null) return; const t = setInterval(() => go(1), 4500); return () => clearInterval(t) }, [hold, open, reduce])
+  useEffect(() => { if (reduce || hold || open !== null) return; const t = setInterval(() => go(1), 15000); return () => clearInterval(t) }, [hold, open, reduce])
   const g = w.gallery[i], cur = shape(ratios[i])
   return (
     <>
