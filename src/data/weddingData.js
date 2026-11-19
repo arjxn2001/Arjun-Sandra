@@ -2,7 +2,7 @@
 const raw = {
   couple: { groom: 'Arjun', bride: 'Sandra', initials: 'A&S' },
   date: { iso: '2026-11-26T10:30:00+05:30', display: '26 November 2026', short: '26 • 11 • 2026' },
-  music: '/music/wedding.mp3',
+  music: '/music/wedding2.mp3',
   hero: { image: '/images/hero.jpg', line: 'A NEW CHAPTER. A FOREVER LOVE.' },
   cardPhoto: '/images/story-01.jpg', // photo shown inside the envelope card
   galleryTitle: 'Our story, in pictures',
@@ -15,15 +15,14 @@ const raw = {
     { src: '/images/gallery-06.jpg', title: 'And now, forever', story: 'And finally, here we are! ❤️ From little neighbours to best friends, from first love to forever… we’re celebrating our happily ever after with the people who mean the most to us. Surrounded by our family and friends, we begin our favourite chapter yet — a lifetime of being us!', bw: false },
   ],
   events: [
-    { name: 'Haldi', date: '23 November 2026', time: '07:30 PM onwards', venue: 'Family Residence', note: 'A morning of turmeric and laughter.', image: '/images/haldi.jpg' },
+    { name: 'Haldi', date: '23 November 2026', time: '07:30 PM onwards', venue: 'Brides Residence', note: 'A morning of turmeric and laughter.', image: '/images/haldi.jpg' },
 
-    { name: 'Sangeet', date: '24 November 2026', time: '7:30 PM onwards', venue: 'To be announced', note: 'Dinner, dance and toasts.', image: '/images/sangeet.jpg' },
+    { name: 'Sangeet', date: '24 November 2026', time: '07:30 PM onwards', venue: 'Brides Residence', note: 'Dinner, dance and toasts.', image: '/images/sangeet.jpg' },
 
-    { name: 'Mehendi', date: '25 November 2026', time: '7:30 PM onwards', venue: "Bride's Residence", note: 'Henna, music and lunch with family.', image: '/images/mehendi.jpg' },
 
     { name: 'The Wedding', date: '26 November 2026', time: 'Muhurtham: 11:47am - 12:07pm', venue: 'Sree Mahadeva Temple Auditorium, Chotty, Kanjirappally', note: 'The ceremony, followed by a feast.', image: '/images/wedding.jpg', maps: 'https://maps.app.goo.gl/zsSBkeNMkYEZD43u8', main: true },
 
-    { name: 'Reception', date: '26 November 2026', time: '7:30 PM onwards', venue: 'To be announced', note: 'An evening to celebrate together.', image: '/images/reception.jpg' },
+    { name: 'Reception', date: '26 November 2026', time: '07:30 PM onwards', venue: 'Grooms Residence', note: 'An evening to celebrate together.', image: '/images/reception.jpg' },
   ],
   note: { title: 'For the people we love', text: 'Having you with us means more than we could ever put into words. Thank you for being part of the memories that brought us here, and for joining us as we begin this beautiful new chapter.' },
   message: ['Some moments become memories.', 'Some people make them unforgettable.'],
